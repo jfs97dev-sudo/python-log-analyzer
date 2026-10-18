@@ -1,0 +1,64 @@
+2026-10-18 08:00:01 INFO [system] Server srv-web-01 started
+2026-10-18 08:00:03 INFO [system] Operating system initialized
+2026-10-18 08:00:05 INFO [network] Network interface eth0 is up
+2026-10-18 08:00:08 INFO [ssh] SSH service started on port 22
+2026-10-18 08:00:10 INFO [nginx] Nginx service started
+2026-10-18 08:00:12 INFO [docker] Docker daemon started
+2026-10-18 08:01:00 INFO [monitoring] Prometheus exporter initialized
+2026-10-18 08:02:15 INFO [database] Database connection established
+2026-10-18 08:03:21 INFO [backup] Backup directory checked
+2026-10-18 08:04:02 INFO [system] Health check completed successfully
+2026-10-18 08:05:10 WARNING [cpu] CPU usage reached 76%
+2026-10-18 08:05:30 INFO [cpu] CPU usage returned to 65%
+2026-10-18 08:06:01 WARNING [memory] RAM usage reached 82%
+2026-10-18 08:06:45 WARNING [disk] Disk usage on /var reached 80%
+2026-10-18 08:07:00 INFO [disk] Disk usage check completed
+2026-10-18 08:08:12 INFO [nginx] Request received from 192.0.2.10
+2026-10-18 08:08:15 INFO [nginx] HTTP request completed with status 200
+2026-10-18 08:09:01 WARNING [nginx] HTTP request returned status 404
+2026-10-18 08:09:05 INFO [nginx] Request processing completed
+2026-10-18 08:10:00 ERROR [database] Connection timeout after 30 seconds
+2026-10-18 08:10:03 ERROR [database] Query execution failed
+2026-10-18 08:10:10 WARNING [database] Connection pool usage reached 85%
+2026-10-18 08:10:15 INFO [database] Retrying database connection
+2026-10-18 08:10:20 INFO [database] Database connection restored
+2026-10-18 08:11:00 INFO [docker] Container web-app-01 is running
+2026-10-18 08:11:15 WARNING [docker] Container web-app-02 restarted unexpectedly
+2026-10-18 08:11:20 INFO [docker] Container web-app-02 is running
+2026-10-18 08:12:00 ERROR [ssh] Failed login attempt for user admin
+2026-10-18 08:12:05 WARNING [ssh] Multiple authentication failures detected
+2026-10-18 08:12:10 INFO [ssh] Successful login for user devops
+2026-10-18 08:13:00 INFO [backup] Backup started
+2026-10-18 08:13:30 INFO [backup] Backup completed successfully
+2026-10-18 08:14:00 WARNING [memory] RAM usage reached 88%
+2026-10-18 08:14:20 ERROR [system] Process worker-03 terminated unexpectedly
+2026-10-18 08:14:25 INFO [system] Restarting process worker-03
+2026-10-18 08:14:30 INFO [system] Process worker-03 started successfully
+2026-10-18 08:15:00 WARNING [disk] Disk usage on /var reached 89%
+2026-10-18 08:15:30 ERROR [disk] Disk usage on /var reached 95%
+2026-10-18 08:15:45 ERROR [backup] Backup failed due to insufficient disk space
+2026-10-18 08:16:00 INFO [monitoring] Alert sent to monitoring system
+2026-10-18 08:16:15 WARNING [network] Network latency reached 250 ms
+2026-10-18 08:16:30 INFO [network] Network latency returned to normal
+2026-10-18 08:17:00 ERROR [nginx] Upstream server returned status 502
+2026-10-18 08:17:05 ERROR [nginx] Request failed after multiple retries
+2026-10-18 08:17:30 INFO [nginx] Upstream server recovered
+2026-10-18 08:18:00 INFO [database] Database replication status healthy
+2026-10-18 08:18:30 WARNING [database] Replication lag reached 12 seconds
+2026-10-18 08:19:00 ERROR [database] Replication connection lost
+2026-10-18 08:19:15 INFO [database] Replication connection restored
+2026-10-18 08:20:00 INFO [system] Scheduled maintenance check started
+2026-10-18 08:20:15 WARNING [system] One service is using an outdated configuration
+2026-10-18 08:20:30 INFO [system] Configuration validation completed
+2026-10-18 08:21:00 ERROR [docker] Container web-app-03 exited with code 1
+2026-10-18 08:21:15 INFO [docker] Container web-app-03 restarted
+2026-10-18 08:21:30 INFO [docker] Container web-app-03 health check passed
+2026-10-18 08:22:00 WARNING [cpu] CPU usage reached 91%
+2026-10-18 08:22:15 ERROR [cpu] CPU usage reached 98%
+2026-10-18 08:22:30 WARNING [cpu] CPU usage returned to 87%
+2026-10-18 08:23:00 INFO [monitoring] Metrics successfully exported
+2026-10-18 08:23:15 INFO [monitoring] All monitored services responded
+2026-10-18 08:24:00 ERROR [system] Health check failed for srv-web-02
+2026-10-18 08:24:15 WARNING [system] srv-web-02 is not responding to ping
+2026-10-18 08:24:30 INFO [monitoring] Incident notification generated
+2026-10-18 08:25:00 INFO [system] Server srv-web-01 operating normally
