@@ -145,15 +145,6 @@ python-log-analyzer/
 - Add command-line options for filtering logs.
 - Generate reports that can be saved to a file.
 
-## Learning Objectives
-
-- Python fundamentals.
-- File handling and exception handling.
-- Command-line arguments.
-- Virtual environments.
-- Git and GitHub.
-- DevOps automation fundamentals.
-
 ## Author
 
 GitHub: [jfs97dev-sudo](https://github.com/jfs97dev-sudo)
