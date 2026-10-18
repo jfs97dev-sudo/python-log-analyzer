@@ -112,23 +112,25 @@ Replace `/path/to/application.log` with the actual path to your file.
 
 For `sample_logs.txt`, the expected summary is:
 
-
+```text
 ========== LOG SUMMARY ==========
 
 Total lines: 6
 INFO: 3
 WARNING: 1
 ERROR: 2
-
+```
 
 ## Project Structure
 
+```text
 python-log-analyzer/
 ├── log_analyzer.py
 ├── sample_logs.txt
 ├── logs_random.txt
 ├── README.md
 └── .gitignore
+```
 
 ## Current Limitations
 
@@ -143,6 +145,16 @@ python-log-analyzer/
 - Add command-line options for filtering logs.
 - Generate reports that can be saved to a file.
 
+## Learning Objectives
+
+- Python fundamentals.
+- File handling and exception handling.
+- Command-line arguments.
+- Virtual environments.
+- Git and GitHub.
+- DevOps automation fundamentals.
+
 ## Author
 
 GitHub: [jfs97dev-sudo](https://github.com/jfs97dev-sudo)
+
