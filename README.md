@@ -136,7 +136,6 @@ python-log-analyzer/
 
 - Severity levels are detected using simple text matching.
 - Each execution allows the user to review one severity level.
-- Automated tests have not yet been implemented.
 
 ## Future Improvements
 
